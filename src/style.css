@@ -1,3 +1,19 @@
-h1, p {
+.titleBct {
+    margin: 20px 30px;
+    color: rgb(65, 65, 126);
     font-family: Lato;
-  }
+}
+  
+.parenTable {
+    margin: 20px 30px;
+    font-family: Lato;
+}
+
+.userId, .idheading {
+  width: 5%;
+  text-align: center;
+}
+
+.bodyTable {
+  margin-top: 8px;
+}

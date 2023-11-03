@@ -17,19 +17,19 @@ export default function App() {
 
     return (
         <div>
-            <h2>Task of BCT</h2>
-            <table>
+            <h1 className="titleBct">Task of BCT</h1>
+            <table className="parenTable">
                 <tr>
-                    <th>User Id</th>
-                    <th>ID</th>
+                    <th className="userId">User Id</th>
+                    <th className="idheading">ID</th>
                     <th>Title</th>
                     <th>Body</th>
                 </tr>
                 <tbody>
                     {data.map((item) => (
-                        <tr>
-                            <td>{item.userId}</td>
-                            <td>{item.id}</td>
+                        <tr className="bodyTable">
+                            <td className="userId">{item.userId}</td>
+                            <td className="idheading">{item.id}</td>
                             <td>{item.title}</td>
                             <td>{item.body}</td>
                         </tr>
